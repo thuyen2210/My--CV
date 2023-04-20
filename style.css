@@ -1,0 +1,41 @@
+.header {
+    display: block;
+    width: 50%;
+       
+    margin: auto;
+    border: 1px solid #333;
+    /* background-color: aquamarine; */
+    
+}
+.header__all {
+    display:flex;
+    width: 80%;
+    height: 200px;
+    justify-content: space-between;
+    align-content: center;
+    /* border: 1px solid #333; */
+    margin: auto;
+    /* background-color: blueviolet;
+     */
+    
+}
+
+.avatar  {
+    width: 100%;
+    height: 100%;
+    float: right;
+    
+}
+.header-content li {
+    list-style: none;
+    font-size: 10px;
+}
+
+.content {
+    margin: 20px 85px;
+    padding: 10px;
+    display: block;
+    background-color: bisque;
+    border-top: 1px solid #333;
+
+}
